@@ -15,5 +15,4 @@ class Solution:
         root = TreeNode(max(nums))
         root.left = self.constructMaximumBinaryTree(left)
         root.right = self.constructMaximumBinaryTree(right)
-
         return root
